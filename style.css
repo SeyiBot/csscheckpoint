@@ -1,0 +1,103 @@
+*{
+ font-family: 'Roboto', sans-serif;
+        Box-sizing: border-box;
+        margin: 0;
+        padding:0;
+
+}
+.navbar{
+    position:relative;
+    background-color: rgb(111, 182, 224);
+    border-radius: 15px;
+    opacity: 0.9;
+    
+
+    
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2%;
+    display: flex
+      inline
+      
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center
+    
+    
+}
+.navbar ul li a:hover{
+    background-color: aqua;
+}
+#imo{
+    background-image: url(checkpointimage.jpg);
+    border-radius: 20px;
+}
+#abt{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+#imr{
+    border-radius: 50%;
+    width: 250px;
+}
+#ft{
+    background-image: url(checkpointimage.jpg);
+    padding: 70px 30px 20px;
+    /* margin-top: 05%; */
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    padding: 2%;
+    font-size: x-large;
+}
+.ftnav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  text-decoration: none;
+    padding: 2%;
+    opacity: 0.9;
+}
+.ftnav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#fb{
+    color: #dee2ec;
+    padding: 1%;
+    font-weight: bolder;
+}
+#Resume{
+    background-color: rgb(219, 248, 243);
+    text-align: center;
+}
+#work{
+    background-color: rgb(219, 248, 243);
+    text-align: center;
+}
+#contact{
+    background-color: rgb(219, 248, 243);
+    text-align: center;
+    margin-top: 20;
+    }
+#vdd{
+    background-color: rgb(219, 248, 243);
+}
+ 
+#tab{
+    margin-top: 20px;
+}
